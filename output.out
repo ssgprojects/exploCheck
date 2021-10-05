@@ -1,0 +1,226 @@
+############################################################
+############################################################
+explorer/sysconfig/uname-a.out
+SunOS hostname 5.11 11.4.27.82.1 sun4v sparc sun4v
+############################################################
+explorer/sysconfig/virtinfo-a.out
+Domain role: LDoms guest
+Domain name: guest_ldom_name
+Domain UUID: 00000000-0000-0000-00000-0000000000
+Control domain: test_master
+Chassis serial#: 1234567
+############################################################
+explorer/sysconfig/last-reboot.out
+reboot    system boot                   Sun Sep 12 09:11 
+reboot    system down                   Fri Sep 10 18:38 
+reboot    system boot                   Tue Aug 17 16:40 
+reboot    system down                   Tue Aug 17 16:36 
+reboot    system boot                   Mon Dec  7 18:48 
+
+wtmpx begins Mon Dec  7 18:48 2020
+############################################################
+explorer/sysconfig/svcs-xv.out
+############################################################
+explorer/sysconfig/vmstat_3_3.out
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr lf vc vc vc   in   sy   cs us sy id
+ 0 0 0 5377232 1283144 46 94 1 62 61  0  0  0  0 31  0 1304 1789 2537  1  1 98
+ 0 0 0 5112304 1086888 7 12  0  3  3  0  0  0  0  3  0  946  567 1152  0  0 99
+ 0 0 0 5112304 1086880 0  0  0  0  0  0  0  1  0 38  0 1029  562 1641  0  1 99
+############################################################
+explorer/sysconfig/zoneadm-list-cv.out
+  ID NAME             STATUS      PATH                         BRAND      IP    
+   0 global           running     /                            solaris    shared
+   1 fsvqz            running     /zonen/fsvqz                 solaris    excl  
+   2 fsvqd            running     /zonen/fsvqd                 solaris    excl  
+############################################################
+explorer/disks/format.out
+Searching for disks...done
+
+
+AVAILABLE DISK SELECTIONS:
+       0. c1d0 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@0
+       1. c1d1 <SUN-DiskImage-64GB cyl 1825 alt 2 hd 96 sec 768>
+          /virtual-devices@100/channel-devices@200/disk@1
+       2. c1d2 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@2
+       3. c1d3 <IBM-2145-0000-101.00GB>
+          /virtual-devices@100/channel-devices@200/disk@3
+############################################################
+explorer/disks/swap-l.out
+swapfile                 dev            swaplo      blocks        free encrypted
+/dev/zvol/dsk/rpool/swap 301,1               0    12582912    12582912      yes
+############################################################
+explorer/disks/swap-s.out
+total: 2743992k bytes allocated + 2389384k reserved = 5133376k used, 5003152k available
+############################################################
+explorer/disks/zfs/zpool_list.out
+NAME   SIZE  ALLOC   FREE  CAP  DEDUP  HEALTH  ALTROOT
+rpool   63G  55.4G  7.57G  87%  1.00x  ONLINE  -
+############################################################
+explorer/disks/zfs/zpool_status_-v.out
+  pool: rpool
+ state: ONLINE
+  scan: scrub repaired 0 in 1h33m with 0 errors on Fri Aug 27 00:35:38 2021
+
+config:
+
+	NAME      STATE      READ WRITE CKSUM
+	rpool     ONLINE        0     0     0
+	  c1d1s0  ONLINE        0     0     0
+
+errors: No known data errors
+############################################################
+explorer/disks/zfs/zpool_status_-x.out
+all pools are healthy
+############################################################
+explorer/sysconfig/uname-a.out
+SunOS hostname 5.11 11.4.27.82.1 sun4v sparc sun4v
+############################################################
+explorer/sysconfig/virtinfo-a.out
+Domain role: LDoms guest
+Domain name: guest_ldom_name
+Domain UUID: 00000000-0000-0000-00000-0000000000
+Control domain: test_master
+Chassis serial#: 1234567
+############################################################
+explorer/sysconfig/last-reboot.out
+reboot    system boot                   Sun Sep 12 09:11 
+reboot    system down                   Fri Sep 10 18:38 
+reboot    system boot                   Tue Aug 17 16:40 
+reboot    system down                   Tue Aug 17 16:36 
+reboot    system boot                   Mon Dec  7 18:48 
+
+wtmpx begins Mon Dec  7 18:48 2020
+############################################################
+explorer/sysconfig/svcs-xv.out
+############################################################
+explorer/sysconfig/vmstat_3_3.out
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr lf vc vc vc   in   sy   cs us sy id
+ 0 0 0 5377232 1283144 46 94 1 62 61  0  0  0  0 31  0 1304 1789 2537  1  1 98
+ 0 0 0 5112304 1086888 7 12  0  3  3  0  0  0  0  3  0  946  567 1152  0  0 99
+ 0 0 0 5112304 1086880 0  0  0  0  0  0  0  1  0 38  0 1029  562 1641  0  1 99
+############################################################
+explorer/sysconfig/zoneadm-list-cv.out
+  ID NAME             STATUS      PATH                         BRAND      IP    
+   0 global           running     /                            solaris    shared
+   1 fsvqz            running     /zonen/fsvqz                 solaris    excl  
+   2 fsvqd            running     /zonen/fsvqd                 solaris    excl  
+############################################################
+explorer/disks/format.out
+Searching for disks...done
+
+
+AVAILABLE DISK SELECTIONS:
+       0. c1d0 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@0
+       1. c1d1 <SUN-DiskImage-64GB cyl 1825 alt 2 hd 96 sec 768>
+          /virtual-devices@100/channel-devices@200/disk@1
+       2. c1d2 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@2
+       3. c1d3 <IBM-2145-0000-101.00GB>
+          /virtual-devices@100/channel-devices@200/disk@3
+############################################################
+explorer/disks/swap-l.out
+swapfile                 dev            swaplo      blocks        free encrypted
+/dev/zvol/dsk/rpool/swap 301,1               0    12582912    12582912      yes
+############################################################
+explorer/disks/swap-s.out
+total: 2743992k bytes allocated + 2389384k reserved = 5133376k used, 5003152k available
+############################################################
+explorer/disks/zfs/zpool_list.out
+NAME   SIZE  ALLOC   FREE  CAP  DEDUP  HEALTH  ALTROOT
+rpool   63G  55.4G  7.57G  87%  1.00x  ONLINE  -
+############################################################
+explorer/disks/zfs/zpool_status_-v.out
+  pool: rpool
+ state: ONLINE
+  scan: scrub repaired 0 in 1h33m with 0 errors on Fri Aug 27 00:35:38 2021
+
+config:
+
+	NAME      STATE      READ WRITE CKSUM
+	rpool     ONLINE        0     0     0
+	  c1d1s0  ONLINE        0     0     0
+
+errors: No known data errors
+############################################################
+explorer/disks/zfs/zpool_status_-x.out
+all pools are healthy
+############################################################
+explorer/sysconfig/uname-a.out
+SunOS hostname 5.11 11.4.27.82.1 sun4v sparc sun4v
+############################################################
+explorer/sysconfig/virtinfo-a.out
+Domain role: LDoms guest
+Domain name: guest_ldom_name
+Domain UUID: 00000000-0000-0000-00000-0000000000
+Control domain: test_master
+Chassis serial#: 1234567
+############################################################
+explorer/sysconfig/last-reboot.out
+reboot    system boot                   Sun Sep 12 09:11 
+reboot    system down                   Fri Sep 10 18:38 
+reboot    system boot                   Tue Aug 17 16:40 
+reboot    system down                   Tue Aug 17 16:36 
+reboot    system boot                   Mon Dec  7 18:48 
+
+wtmpx begins Mon Dec  7 18:48 2020
+############################################################
+explorer/sysconfig/svcs-xv.out
+############################################################
+explorer/sysconfig/vmstat_3_3.out
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr lf vc vc vc   in   sy   cs us sy id
+ 0 0 0 5377232 1283144 46 94 1 62 61  0  0  0  0 31  0 1304 1789 2537  1  1 98
+ 0 0 0 5112304 1086888 7 12  0  3  3  0  0  0  0  3  0  946  567 1152  0  0 99
+ 0 0 0 5112304 1086880 0  0  0  0  0  0  0  1  0 38  0 1029  562 1641  0  1 99
+############################################################
+explorer/sysconfig/zoneadm-list-cv.out
+  ID NAME             STATUS      PATH                         BRAND      IP    
+   0 global           running     /                            solaris    shared
+   1 fsvqz            running     /zonen/fsvqz                 solaris    excl  
+   2 fsvqd            running     /zonen/fsvqd                 solaris    excl  
+############################################################
+explorer/disks/format.out
+Searching for disks...done
+
+
+AVAILABLE DISK SELECTIONS:
+       0. c1d0 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@0
+       1. c1d1 <SUN-DiskImage-64GB cyl 1825 alt 2 hd 96 sec 768>
+          /virtual-devices@100/channel-devices@200/disk@1
+       2. c1d2 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@2
+       3. c1d3 <IBM-2145-0000-101.00GB>
+          /virtual-devices@100/channel-devices@200/disk@3
+############################################################
+explorer/disks/swap-l.out
+swapfile                 dev            swaplo      blocks        free encrypted
+/dev/zvol/dsk/rpool/swap 301,1               0    12582912    12582912      yes
+############################################################
+explorer/disks/swap-s.out
+total: 2743992k bytes allocated + 2389384k reserved = 5133376k used, 5003152k available
+############################################################
+explorer/disks/zfs/zpool_list.out
+NAME   SIZE  ALLOC   FREE  CAP  DEDUP  HEALTH  ALTROOT
+rpool   63G  55.4G  7.57G  87%  1.00x  ONLINE  -
+############################################################
+explorer/disks/zfs/zpool_status_-v.out
+  pool: rpool
+ state: ONLINE
+  scan: scrub repaired 0 in 1h33m with 0 errors on Fri Aug 27 00:35:38 2021
+
+config:
+
+	NAME      STATE      READ WRITE CKSUM
+	rpool     ONLINE        0     0     0
+	  c1d1s0  ONLINE        0     0     0
+
+errors: No known data errors
+############################################################
+explorer/disks/zfs/zpool_status_-x.out
+all pools are healthy

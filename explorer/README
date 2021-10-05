@@ -1,0 +1,34 @@
+=========== ORACLE EXPLORER DATA COLLECTOR (Version 18.2) ===========
+
+This directory contains system configuration information.
+Information was gathered on Sun Sep 12 23:27:57 CEST 2022.
+
+Synopsis
+========
+
+
+
+The following info was collected using UNIX tools (hostname, arch, etc)
+------------------------------------------------- ---------------------
+
+Date: 2021.09.12.22.27
+Finished: 2021.09.12.22.27
+Hostname: dadadada
+Hostid: adadada
+Release: 5.11
+Kernel architecture: sun4v
+Application architecture: sparc
+Domain: test.test.test
+Kernel version: SunOS 5.11 11.4.27.82.1
+Entire Version : 11.4-11.4.27.0.1.82.1
+System Type: 
+Uptime:  10:27pm  up 13:16,  0 users,  load average: 0.98, 0.82, 0.50
+Swap-s:
+total: 2803128k bytes allocated + 2387392k reserved = 5190520k used, 4871568k available
+Swap-l:
+swapfile                 dev            swaplo      blocks        free encrypted
+/dev/zvol/dsk/rpool/swap 301,1               0    12582912    12582912      yes
+Vmstat:
+ kthr      memory            page            disk          faults      cpu
+ r b w   swap  free  re  mf pi po fr de sr lf vc vc vc   in   sy   cs us sy id
+ 0 0 0 5374216 1280736 49 111 1 62 61 0  0  0  0 31  0 1305 1981 2630  1  1 98

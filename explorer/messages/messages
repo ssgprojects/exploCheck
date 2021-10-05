@@ -1,0 +1,381 @@
+Sep 12 09:09:50 fsvqg002 mac: [ID 486395 kern.notice] NOTICE: vnet9 link down
+Sep 12 09:10:00 fsvqg002 cl_dlpitrans: [ID 624622 kern.notice] Notifying cluster that this node is panicking
+Sep 12 09:10:00 fsvqg002 unix: [ID 836849 kern.notice] #012#015panic[cpu5]/thread=a003b4ae740: 
+Sep 12 09:10:00 fsvqg002 unix: [ID 265925 kern.notice] CMM: Cluster lost operational quorum; aborting.
+Sep 12 09:10:00 fsvqg002 unix: [ID 100000 kern.notice] #012
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f5530 cl_runtime:__1cZsc_syslog_msg_log_no_args6Fpviipkc0_nZsc_syslog_msg_status_enum__+2c (a003b3ee800, 3, 0, 7092b2ae, 2a1068f5730, 43)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 000000007092acb8 000000000000004c 000002a1068f54ac 00000a0028832385#012  %l4-7: 00000a00288323d1 00000a002883fee6 00000a002882fee6 0000000000010000
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f55e0 cl_runtime:__1cCosNsc_syslog_msgDlog6MiipkcE_nZsc_syslog_msg_status_enum__+1c (a003b32ed18, 3, 0, 7092b2ae, 2, 2a1068f5720)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 0000000000000002 000000007098440e 0000000000000000 0000000000000002#012  %l4-7: 0000000000000002 0000000000000001 0000000000000001 0000000000000000
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f5690 cl_haci:__1cOautomaton_implbAstate_machine_qcheck_state6M_nVcmm_automaton_event_t__+48c (a002de1c008, 7092a, 7092a000, a002de1ccd8, 2a1068f58f0, 7092b1da)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 0000000000000002 0000000000001000 00000000708ba000 00000000000708ba#012  %l4-7: 0000000000070800 000000007092b000 000000000007092b 0000000000070800
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f5910 cl_haci:__1cIcmm_implStransitions_thread6M_v_+cc (a002de1c008, 1, 14, 70800, 1c4f84b073e424f, 1d354)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 00000000000002c0 000000000000002c 000000007bc2d000 000000000007bc2d#012  %l4-7: 000000000007bc00 0000000070929000 0000000000070929 0000000000070800
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f59c0 cl_orb:cllwpwrapper+150 (7bc2c530, 70800, 708bd, 708f4000, 708f4, 208a7c70)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 0000000020878c00 00000000208a7000 00000000000208a7 0000000000020800#012  %l4-7: 0000000000000007 fffffffffffffffd 00000a00137c9090 00000000708bd000
+Sep 12 09:10:00 fsvqg002 genunix: [ID 723222 kern.notice] 000002a1068f5aa0 unix:thread_start+4 (2a1068f5b50, 18, 0, 0, 0, 0)
+Sep 12 09:10:00 fsvqg002 genunix: [ID 179002 kern.notice]   %l0-3: 0000000000000000 0000000000000000 0000000000000000 0000000000000000#012  %l4-7: 0000000000000000 0000000000000000 0000000000000000 0000000000000000
+Sep 12 09:10:00 fsvqg002 unix: [ID 100000 kern.notice] 
+Sep 12 09:10:00 fsvqg002 genunix: [ID 672855 kern.notice] syncing file systems...
+Sep 12 09:10:00 fsvqg002 genunix: [ID 904073 kern.notice]  done
+Sep 12 09:10:01 fsvqg002 genunix: [ID 727356 kern.notice] Preserving kernel image in RAM, content: kernel
+Sep 12 09:10:01 fsvqg002 genunix: [ID 718621 kern.notice]  sections: 
+Sep 12 09:10:01 fsvqg002 genunix: [ID 702911 kern.notice] zfs
+Sep 12 09:10:01 fsvqg002 genunix: [ID 100000 kern.notice] 
+Sep 12 09:10:11 fsvqg002 genunix: [ID 100000 kern.notice] 
+Sep 12 09:10:12 fsvqg002 genunix: [ID 100000 kern.notice] 
+Sep 12 09:10:12 fsvqg002 genunix: [ID 161914 kern.notice] #015100% done: 
+Sep 12 09:10:12 fsvqg002 genunix: [ID 425971 kern.notice] 322858 (kernel)
+Sep 12 09:10:12 fsvqg002 genunix: [ID 646760 kern.notice]  + 
+Sep 12 09:10:12 fsvqg002 genunix: [ID 425971 kern.notice] 62222 (zfs)
+Sep 12 09:10:12 fsvqg002 genunix: [ID 381377 kern.notice]  pages dumped, dump 
+Sep 12 09:10:12 fsvqg002 genunix: [ID 181337 kern.notice] succeeded
+Sep 12 09:11:28 fsvqg002 genunix: [ID 540533 kern.notice] SunOS Release 5.11 Version 11.4.27.82.1 64-bit
+Sep 12 09:11:28 fsvqg002 genunix: [ID 473000 kern.notice] Copyright (c) 1983, 2020, Oracle and/or its affiliates.
+Sep 12 09:11:28 fsvqg002 genunix: [ID 678236 kern.notice] Ethernet address = 0:14:4f:fa:7d:fe
+Sep 12 09:11:28 fsvqg002 unix: [ID 627932 kern.notice] mem = 10G (0x280000000)
+Sep 12 09:11:28 fsvqg002 unix: [ID 930857 kern.notice] avail mem = 6856318976
+Sep 12 09:11:28 fsvqg002 rootnex: [ID 466748 kern.notice] root nexus = SPARC T4-1
+Sep 12 09:11:28 fsvqg002 rootnex: [ID 349649 kern.notice] pseudo0 at root
+Sep 12 09:11:28 fsvqg002 genunix: [ID 936769 kern.notice] pseudo0 is /pseudo
+Sep 12 09:11:28 fsvqg002 rootnex: [ID 349649 kern.notice] scsi_vhci0 at root
+Sep 12 09:11:28 fsvqg002 genunix: [ID 936769 kern.notice] scsi_vhci0 is /scsi_vhci
+Sep 12 09:11:28 fsvqg002 kcf: [ID 787676 kern.notice] NOTICE: kcf: FIPS-140 disabled.
+Sep 12 09:11:28 fsvqg002 vnex: [ID 367333 kern.notice] virtual-device: cnex0
+Sep 12 09:11:28 fsvqg002 genunix: [ID 936769 kern.notice] cnex0 is /virtual-devices@100/channel-devices@200
+Sep 12 09:11:28 fsvqg002 vdc: [ID 137393 kern.notice] disk@1 is online using ldc@31,0
+Sep 12 09:11:28 fsvqg002 cnex: [ID 799930 kern.notice] channel-device: vdc1
+Sep 12 09:11:28 fsvqg002 genunix: [ID 936769 kern.notice] vdc1 is /virtual-devices@100/channel-devices@200/disk@1
+Sep 12 09:11:28 fsvqg002 vdc: [ID 195061 kern.notice] vdc_do_attach: disk@1: vdc1 has attached
+Sep 12 09:11:28 fsvqg002 zfs: [ID 249136 kern.notice] imported version 0 pool rpool using 47
+Sep 12 09:11:37 fsvqg002 genunix: [ID 308332 kern.notice] root on rpool/ROOT/s2x2020 fstype zfs
+Sep 12 09:11:40 fsvqg002 krtld: [ID 402689 kern.notice] NOTICE: Verified boot enabled; policy=warning
+Sep 12 09:11:40 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: dld0
+Sep 12 09:11:40 fsvqg002 genunix: [ID 936769 kern.notice] dld0 is /pseudo/dld@0
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu0: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu1: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu2: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu3: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu4: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu5: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu6: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 950921 kern.notice] cpu7: SPARC-T4 (chipid 0, clock 2848 MHz)
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu1 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu2 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu3 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu4 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu5 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu6 initialization complete - online
+Sep 12 09:11:43 fsvqg002 unix: [ID 557827 kern.notice] cpu7 initialization complete - online
+Sep 12 09:11:43 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: hcad0
+Sep 12 09:11:43 fsvqg002 genunix: [ID 936769 kern.notice] hcad0 is /pseudo/hcad@0
+Sep 12 09:11:45 fsvqg002 cnex: [ID 799930 kern.notice] channel-device: vpci0
+Sep 12 09:12:02 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: zfs0
+Sep 12 09:12:02 fsvqg002 genunix: [ID 936769 kern.notice] zfs0 is /pseudo/zfs@0
+Sep 12 09:12:39 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: dtrace0
+Sep 12 09:12:39 fsvqg002 genunix: [ID 936769 kern.notice] dtrace0 is /pseudo/dtrace@0
+Sep 12 09:13:20 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: mdesc0
+Sep 12 09:13:20 fsvqg002 genunix: [ID 936769 kern.notice] mdesc0 is /pseudo/mdesc@0
+Sep 12 09:13:55 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: lofi0
+Sep 12 09:13:55 fsvqg002 genunix: [ID 936769 kern.notice] lofi0 is /pseudo/lofi@0
+Sep 12 09:13:56 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: devinfo0
+Sep 12 09:13:56 fsvqg002 genunix: [ID 936769 kern.notice] devinfo0 is /pseudo/devinfo@0
+Sep 12 09:13:59 fsvqg002 rootnex: [ID 349649 kern.notice] fcoe0 at root
+Sep 12 09:13:59 fsvqg002 genunix: [ID 936769 kern.notice] fcoe0 is /fcoe
+Sep 12 09:13:59 fsvqg002 rootnex: [ID 349649 kern.notice] iscsi0 at root
+Sep 12 09:13:59 fsvqg002 genunix: [ID 936769 kern.notice] iscsi0 is /iscsi
+Sep 12 09:13:59 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: pseudo1
+Sep 12 09:13:59 fsvqg002 genunix: [ID 936769 kern.notice] pseudo1 is /pseudo/zconsnex@1
+Sep 12 09:14:00 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet0 registered
+Sep 12 09:14:00 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: dcpc0
+Sep 12 09:14:00 fsvqg002 genunix: [ID 936769 kern.notice] dcpc0 is /pseudo/dcpc@0
+Sep 12 09:14:00 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ds_pri0
+Sep 12 09:14:00 fsvqg002 genunix: [ID 936769 kern.notice] ds_pri0 is /pseudo/ds_pri@0
+Sep 12 09:14:03 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fasttrap0
+Sep 12 09:14:03 fsvqg002 genunix: [ID 936769 kern.notice] fasttrap0 is /pseudo/fasttrap@0
+Sep 12 09:14:03 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fbt0
+Sep 12 09:14:03 fsvqg002 genunix: [ID 936769 kern.notice] fbt0 is /pseudo/fbt@0
+Sep 12 09:14:03 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fcode0
+Sep 12 09:14:03 fsvqg002 genunix: [ID 936769 kern.notice] fcode0 is /pseudo/fcode@0
+Sep 12 09:14:03 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fcsm0
+Sep 12 09:14:03 fsvqg002 genunix: [ID 936769 kern.notice] fcsm0 is /pseudo/fcsm@0
+Sep 12 09:14:03 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ipmi0
+Sep 12 09:14:03 fsvqg002 genunix: [ID 936769 kern.notice] ipmi0 is /pseudo/ipmi@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: llc10
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] llc10 is /pseudo/llc1@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: lockstat0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] lockstat0 is /pseudo/lockstat@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ntwdt0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] ntwdt0 is /pseudo/ntwdt@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: profile0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] profile0 is /pseudo/profile@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: sbmc0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] sbmc0 is /pseudo/sbmc@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: sdt0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] sdt0 is /pseudo/sdt@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: srn0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] srn0 is /pseudo/srn@0
+Sep 12 09:14:04 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: systrace0
+Sep 12 09:14:04 fsvqg002 genunix: [ID 936769 kern.notice] systrace0 is /pseudo/systrace@0
+Sep 12 09:14:05 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: trapstat0
+Sep 12 09:14:05 fsvqg002 genunix: [ID 936769 kern.notice] trapstat0 is /pseudo/trapstat@0
+Sep 12 09:14:05 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ttrace0
+Sep 12 09:14:05 fsvqg002 genunix: [ID 936769 kern.notice] ttrace0 is /pseudo/ttrace@0
+Sep 12 09:14:05 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: uvfs0
+Sep 12 09:14:05 fsvqg002 genunix: [ID 936769 kern.notice] uvfs0 is /pseudo/uvfs@0
+Sep 12 09:14:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: smbclnt20
+Sep 12 09:14:06 fsvqg002 genunix: [ID 936769 kern.notice] smbclnt20 is /pseudo/smbclnt2@0
+Sep 12 09:14:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: umac0
+Sep 12 09:14:06 fsvqg002 genunix: [ID 936769 kern.notice] umac0 is /pseudo/umac@0
+Sep 12 09:14:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: bpf0
+Sep 12 09:14:06 fsvqg002 genunix: [ID 936769 kern.notice] bpf0 is /pseudo/bpf@0
+Sep 12 09:14:07 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fssnap0
+Sep 12 09:14:07 fsvqg002 genunix: [ID 936769 kern.notice] fssnap0 is /pseudo/fssnap@0
+Sep 12 09:14:08 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: pm0
+Sep 12 09:14:08 fsvqg002 genunix: [ID 936769 kern.notice] pm0 is /pseudo/pm@0
+Sep 12 09:14:08 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: pool0
+Sep 12 09:14:08 fsvqg002 genunix: [ID 936769 kern.notice] pool0 is /pseudo/pool@0
+Sep 12 09:14:08 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: nsmb0
+Sep 12 09:14:08 fsvqg002 genunix: [ID 936769 kern.notice] nsmb0 is /pseudo/nsmb@0
+Sep 12 09:14:09 fsvqg002 genunix: [ID 408114 kern.notice] /pseudo/lofi@1 (lofi1) online
+Sep 12 09:14:24 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: drctl0
+Sep 12 09:14:24 fsvqg002 genunix: [ID 936769 kern.notice] drctl0 is /pseudo/drctl@0
+Sep 12 09:14:25 fsvqg002 genunix: [ID 227219 kern.notice] This Solaris instance has UUID 673b38c2-ba0b-485d-8aab-935b4da69f21
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet0 registered
+Sep 12 09:14:41 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet0
+Sep 12 09:14:41 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet0 is /pseudo/clprivnet@0
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet1 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet2 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet3 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet1 registered
+Sep 12 09:14:41 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet1
+Sep 12 09:14:41 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet1 is /pseudo/clprivnet@1
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet2 registered
+Sep 12 09:14:41 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet2
+Sep 12 09:14:41 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet2 is /pseudo/clprivnet@2
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet3 registered
+Sep 12 09:14:41 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet3
+Sep 12 09:14:41 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet3 is /pseudo/clprivnet@3
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet8 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet9 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet4 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet5 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet6 registered
+Sep 12 09:14:41 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet7 registered
+Sep 12 09:14:45 fsvqg002 genunix: [ID 390243 kern.notice] Creating /etc/devices/devid_cache
+Sep 12 09:14:46 fsvqg002 vdc: [ID 137393 kern.notice] disk@2 is online using ldc@35,0
+Sep 12 09:14:46 fsvqg002 cnex: [ID 799930 kern.notice] channel-device: vdc2
+Sep 12 09:14:46 fsvqg002 genunix: [ID 936769 kern.notice] vdc2 is /virtual-devices@100/channel-devices@200/disk@2
+Sep 12 09:14:46 fsvqg002 vdc: [ID 195061 kern.notice] vdc_do_attach: disk@2: vdc2 has attached
+Sep 12 09:14:46 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: adm0 registered
+Sep 12 09:14:46 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet0 link up, 0 Mbps, unknown duplex
+Sep 12 09:14:46 fsvqg002 vdc: [ID 137393 kern.notice] disk@0 is online using ldc@32,0
+Sep 12 09:14:46 fsvqg002 cnex: [ID 799930 kern.notice] channel-device: vdc0
+Sep 12 09:14:46 fsvqg002 genunix: [ID 936769 kern.notice] vdc0 is /virtual-devices@100/channel-devices@200/disk@0
+Sep 12 09:14:46 fsvqg002 vdc: [ID 195061 kern.notice] vdc_do_attach: disk@0: vdc0 has attached
+Sep 12 09:14:46 fsvqg002 vdc: [ID 137393 kern.notice] disk@3 is online using ldc@1,0
+Sep 12 09:14:46 fsvqg002 cnex: [ID 799930 kern.notice] channel-device: vdc3
+Sep 12 09:14:46 fsvqg002 genunix: [ID 936769 kern.notice] vdc3 is /virtual-devices@100/channel-devices@200/disk@3
+Sep 12 09:14:46 fsvqg002 vdc: [ID 195061 kern.notice] vdc_do_attach: disk@3: vdc3 has attached
+Sep 12 09:14:49 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fcp0
+Sep 12 09:14:49 fsvqg002 genunix: [ID 936769 kern.notice] fcp0 is /pseudo/fcp@0
+Sep 12 09:14:49 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ramdisk1024
+Sep 12 09:14:49 fsvqg002 genunix: [ID 936769 kern.notice] ramdisk1024 is /pseudo/ramdisk@1024
+Sep 12 09:14:50 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: adm0 link up, 0 Mbps, unknown duplex
+Sep 12 09:14:50 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet1 link up, 0 Mbps, unknown duplex
+Sep 12 09:14:50 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: cc0 registered
+Sep 12 09:14:50 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet2 link up, 0 Mbps, unknown duplex
+Sep 12 09:14:50 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: ci0 registered
+Sep 12 09:14:51 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet3 link up, 0 Mbps, unknown duplex
+Sep 12 09:14:51 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: ci1 registered
+Sep 12 09:15:05 fsvqg002 ldap_cachemgr[852]: [ID 392843 daemon.warning] Warning: Only one server configured. svc:/network/ldap/client:default service will degrade each time the LDAP connection is lost!
+Sep 12 09:15:15 fsvqg002 cl_runtime: [ID 965873 kern.notice] NOTICE: CMM: Node fsvqg001 (nodeid = 1) with votecount = 1 added.
+Sep 12 09:15:15 fsvqg002 cl_runtime: [ID 965873 kern.notice] NOTICE: CMM: Node fsvqg002 (nodeid = 2) with votecount = 1 added.
+Sep 12 09:15:16 fsvqg002 cl_runtime: [ID 310555 kern.notice] NOTICE: CMM: Quorum device 1 (/dev/did/rdsk/d3s2) added; votecount = 1, bitmask of nodes with configured paths = 0x3.
+Sep 12 09:15:16 fsvqg002 genunix: [ID 214425 kern.notice] dump device is /dev/zvol/dsk/rpool/dump size 8G (0x200000000)
+Sep 12 09:15:16 fsvqg002 cl_runtime: [ID 884114 kern.notice] NOTICE: clcomm: Adapter ci1 constructed
+Sep 12 09:15:16 fsvqg002 cl_runtime: [ID 884114 kern.notice] NOTICE: clcomm: Adapter ci0 constructed
+Sep 12 09:15:16 fsvqg002 cl_runtime: [ID 843983 kern.notice] NOTICE: CMM: Node fsvqg002: attempting to join cluster.
+Sep 12 09:15:24 fsvqg002 savecore: [ID 570001 daemon.notice] reboot after panic: CMM: Cluster lost operational quorum; aborting.
+Sep 12 09:15:24 fsvqg002 savecore: [ID 702911 daemon.warning] System dump time: Sun Sep 12 09:10:01 2021#012
+Sep 12 09:15:24 fsvqg002 savecore: [ID 702911 daemon.warning] Dump found on /dev/defdump
+Sep 12 09:15:24 fsvqg002 savecore: [ID 702911 daemon.error] System startup delayed until crashdump is saved to disk
+Sep 12 09:15:24 fsvqg002 savecore: [ID 702911 daemon.error] Saving compressed system crash dump files in directory /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430
+Sep 12 09:15:42 fsvqg002 fmd: [ID 377184 daemon.error] SUNW-MSG-ID: SUNOS-8000-KL, TYPE: Defect, VER: 1, SEVERITY: Major#012EVENT-TIME: Sun Sep 12 09:15:31 CEST 2021#012PLATFORM: SPARC-T4-1, CSN: unknown, HOSTNAME: fsvqg002#012SOURCE: software-diagnosis, REV: 0.2#012EVENT-ID: 3e2eaca9-07f1-4b94-840c-dbaaa7d6f430#012DESC: The system has rebooted after a kernel panic. The following are potential bugs.#012stack[0] - 16660233 #012stackdb diagnostic database is out of date,#012please update it by running#012#011# pkg update diagnostic/stackdb#012#012AUTO-RESPONSE: The failed system image was dumped to the dump device.  If savecore is enabled (see dumpadm(8)) a copy of the dump will be written to the savecore directory /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430.#012IMPACT: There may be some performance impact while the crash dump is copied to the savecore directory.  Disk space usage by crash dumps can be substantial.#012REC-ACTION: If savecore is not enabled then please take steps to preserve the crash image. Use 'fmdump -Vp -u 3e2eaca9-07f1-4b94-840c-dbaaa7d6f430' to view more panic detail. Please refer to the associated reference document at http://support.oracle.com/msg/SUNOS-8000-KL for the latest service procedures and policies regarding this diagnosis.#012FRU-LOCATION:
+Sep 12 09:15:42 fsvqg002 sendmail[1261]: [ID 702911 mail.crit] My unqualified host name (fsvqg002) unknown; sleeping for retry
+Sep 12 09:16:16 fsvqg002 cl_runtime: [ID 980942 kern.notice] NOTICE: CMM: Cluster doesn't have operational quorum yet; waiting for quorum.
+Sep 12 09:16:16 fsvqg002 cl_runtime: [ID 604153 kern.notice] NOTICE: clcomm: Path fsvqg002:ci1 - fsvqg001:ci1 errors during initiation
+Sep 12 09:16:16 fsvqg002 cl_runtime: [ID 604153 kern.notice] NOTICE: clcomm: Path fsvqg002:ci0 - fsvqg001:ci0 errors during initiation
+Sep 12 09:16:16 fsvqg002 cl_runtime: [ID 618107 kern.warning] WARNING: Path fsvqg002:ci0 - fsvqg001:ci0 initiation encountered errors, errno = 62. Remote node may be down or unreachable through this path.
+Sep 12 09:16:16 fsvqg002 cl_runtime: [ID 618107 kern.warning] WARNING: Path fsvqg002:ci1 - fsvqg001:ci1 initiation encountered errors, errno = 62. Remote node may be down or unreachable through this path.
+Sep 12 09:16:38 fsvqg002 savecore: [ID 702911 daemon.error] Decompress all crash dump files with '(cd /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430 && savecore 0)' or individual files with 'savecore -f /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430/vmdump{,-<secname>}.0'
+Sep 12 09:16:41 fsvqg002 fmd: [ID 377184 daemon.notice] SUNW-MSG-ID: SAVECORE-8000-1M, TYPE: Alert, VER: 1, SEVERITY: Minor#012EVENT-TIME: Sun Sep 12 09:16:39 CEST 2021#012PLATFORM: SPARC-T4-1, CSN: unknown, HOSTNAME: fsvqg002#012SOURCE: software-diagnosis, REV: 0.2#012EVENT-ID: d10dcaac-808c-43e7-b3bc-ecf599564b96#012DESC: savecore(8) successfully extracted crash dump from dump device with OS image UUID 3e2eaca9-07f1-4b94-840c-dbaaa7d6f430 into directory /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430#012AUTO-RESPONSE: There is no automated response.#012IMPACT: #012REC-ACTION: Please refer to the associated reference document at http://support.oracle.com/msg/SAVECORE-8000-1M for the latest service procedures and policies regarding this diagnosis.#012FRU-LOCATION:
+Sep 12 09:16:42 fsvqg002 sendmail[1261]: [ID 702911 mail.alert] unable to qualify my own domain name (fsvqg002) -- using short name
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 387288 kern.notice] NOTICE: clcomm: Path fsvqg002:ci0 - fsvqg001:ci0 online
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 537175 kern.notice] NOTICE: CMM: Node fsvqg001 (nodeid: 1, incarnation #: 1607360847) has become reachable.
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 525628 kern.notice] NOTICE: CMM: Cluster has reached quorum.
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 377347 kern.notice] NOTICE: CMM: Node fsvqg001 (nodeid = 1) is up; new incarnation number = 1607360847.
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 377347 kern.notice] NOTICE: CMM: Node fsvqg002 (nodeid = 2) is up; new incarnation number = 1631430913.
+Sep 12 09:16:52 fsvqg002 cl_runtime: [ID 108990 kern.notice] NOTICE: CMM: Cluster members: fsvqg001 fsvqg002.
+Sep 12 09:16:53 fsvqg002 cl_runtime: [ID 279084 kern.notice] NOTICE: CMM: node reconfiguration #110 completed.
+Sep 12 09:16:53 fsvqg002 cl_runtime: [ID 499756 kern.notice] NOTICE: CMM: Node fsvqg002: joined cluster.
+Sep 12 09:16:53 fsvqg002 cl_runtime: [ID 891063 kern.notice] NOTICE: Received non-interrupt heartbeat on fsvqg002:ci0 - fsvqg001:ci0.
+Sep 12 09:16:54 fsvqg002 cl_runtime: [ID 564910 kern.notice] NOTICE: Membership: Node 'fsvqd001' (node id 1) of cluster 'fsvqd' joined.
+Sep 12 09:16:54 fsvqg002 cl_runtime: [ID 564910 kern.notice] NOTICE: Membership: Node 'fsvqz001' (node id 1) of cluster 'fsvqz' joined.
+Sep 12 09:16:55 fsvqg002 mac: [ID 744254 kern.notice] NOTICE: clprivnet0 link up
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] ntpd 4.2.8p15@1.3728-o Tue Oct  6 09:14:25 UTC 2020 (1): Starting
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] Command line: /usr/lib/inet/ntpd --pidfile /var/run/ntp.pid --panicgate --slew --force-step-once
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] ----------------------------------------------------
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] ntp-4 is maintained by Network Time Foundation,
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] Inc. (NTF), a non-profit 501(c)(3) public-benefit
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] corporation.  Information and training for ntp-4 are
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] available at https://www.nwtime.org/support
+Sep 12 09:16:59 fsvqg002 ntpd[1540]: [ID 702911 daemon.notice] ----------------------------------------------------
+Sep 12 09:17:00 fsvqg002 Cluster.CCR: [ID 357511 daemon.warning] reservation warning(node_join) - MHIOCGRP_INKEYS error(25) will retry in 2 seconds
+Sep 12 09:17:00 fsvqg002 ntpd[1560]: [ID 702911 daemon.notice] switching logging to file /var/ntp/ntp.log
+Sep 12 09:17:02 fsvqg002 Cluster.CCR: [ID 357511 daemon.warning] reservation warning(node_join) - MHIOCGRP_INKEYS error(25) will retry in 2 seconds
+Sep 12 09:17:04 fsvqg002 Cluster.CCR: [ID 357511 daemon.warning] reservation warning(node_join) - MHIOCGRP_INKEYS error(25) will retry in 2 seconds
+Sep 12 09:17:06 fsvqg002 Cluster.CCR: [ID 826747 daemon.warning] reservation error(node_join) - do_scsi3_inkeys() error for disk /dev/did/rdsk/d2s2
+Sep 12 09:17:06 fsvqg002 Cluster.CCR: [ID 704082 daemon.warning] reservation warning(node_join) - MHIOCENFAILFAST error(25) will retry in 2 seconds
+Sep 12 09:17:08 fsvqg002 Cluster.CCR: [ID 704082 daemon.warning] reservation warning(node_join) - MHIOCENFAILFAST error(25) will retry in 2 seconds
+Sep 12 09:17:10 fsvqg002 Cluster.CCR: [ID 704082 daemon.warning] reservation warning(node_join) - MHIOCENFAILFAST error(25) will retry in 2 seconds
+Sep 12 09:17:12 fsvqg002 Cluster.CCR: [ID 530064 daemon.warning] reservation error(node_join) - do_enfailfast() error for disk /dev/did/rdsk/d2s2
+Sep 12 09:17:12 fsvqg002 genunix: [ID 408114 kern.notice] /pseudo/lofi@1 (lofi1) offline
+Sep 12 09:17:14 fsvqg002 genunix: [ID 408114 kern.notice] /pseudo/lofi@2046 (lofi2046) online
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] ntpd 4.2.8p15@1.3728-o Tue Oct  6 09:14:25 UTC 2020 (1): Starting
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] Command line: /usr/lib/inet/ntpd --pidfile /var/run/ntp.pid --panicgate --slew
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] ----------------------------------------------------
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] ntp-4 is maintained by Network Time Foundation,
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] Inc. (NTF), a non-profit 501(c)(3) public-benefit
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] corporation.  Information and training for ntp-4 are
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] available at https://www.nwtime.org/support
+Sep 12 09:17:25 fsvqg002 ntpd[1692]: [ID 702911 daemon.notice] ----------------------------------------------------
+Sep 12 09:17:25 fsvqg002 ntpd[1694]: [ID 702911 daemon.notice] switching logging to file /var/ntp/ntp.log
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 922726 daemon.notice] The status of device: /dev/did/rdsk/d2s0 is set to MONITORED
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 922726 daemon.notice] The status of device: /dev/did/rdsk/d3s0 is set to MONITORED
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 922726 daemon.notice] The status of device: /dev/did/rdsk/d4s0 is set to MONITORED
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 922726 daemon.notice] The status of device: /dev/did/rdsk/d5s0 is set to MONITORED
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 489913 daemon.notice] The state of the path to device: /dev/did/rdsk/d2s0 has changed to OK
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 489913 daemon.notice] The state of the path to device: /dev/did/rdsk/d3s0 has changed to OK
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 489913 daemon.notice] The state of the path to device: /dev/did/rdsk/d4s0 has changed to OK
+Sep 12 09:17:43 fsvqg002 Cluster.scdpmd: [ID 489913 daemon.notice] The state of the path to device: /dev/did/rdsk/d5s0 has changed to OK
+Sep 12 09:17:45 fsvqg002 genunix: [ID 142025 kern.warning] WARNING: Cannot open zone restarter door: /system/volatile/zdr_door zone: fsvqz ret: 2
+Sep 12 09:17:45 fsvqg002 genunix: [ID 142025 kern.warning] WARNING: Cannot open zone restarter door: /system/volatile/zdr_door zone: fsvqd ret: 2
+Sep 12 09:17:45 fsvqg002 genunix: [ID 408114 kern.notice] /pseudo/zconsnex@1/zcons@0 (zcons0) online
+Sep 12 09:17:45 fsvqg002 genunix: [ID 408114 kern.notice] /pseudo/zconsnex@1/zcons@1 (zcons1) online
+Sep 12 09:17:45 fsvqg002 Cluster.RGM.rgmdstarter: [ID 846652 daemon.error] starting proxy rgmd for fsvqd
+Sep 12 09:17:45 fsvqg002 Cluster.RGM.rgmdstarter: [ID 846652 daemon.error] starting proxy rgmd for fsvqz
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet4 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet5 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet6 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet7 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet8 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: vnet9 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: clprivnet1 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: clprivnet2 unregistered
+Sep 12 09:17:48 fsvqg002 mac: [ID 736570 kern.notice] NOTICE: clprivnet3 unregistered
+Sep 12 09:18:30 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ipmi0
+Sep 12 09:18:30 fsvqg002 genunix: [ID 936769 kern.notice] ipmi0 is /pseudo/ipmi@0
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet4 registered
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet5 registered
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet7 registered
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet6 registered
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet8 registered
+Sep 12 09:18:49 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vnet9 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: adm0 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet4 link up, 0 Mbps, unknown duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan2 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet7 link up, 0 Mbps, unknown duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan79 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: adm0 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet5 link up, 0 Mbps, unknown duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan152_1 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan152_2 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet6 link up, 0 Mbps, unknown duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vlan152_2 link up, 0 Mbps, unknown duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan565_1 registered
+Sep 12 09:18:56 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet9 link up, 1000 Mbps, full duplex
+Sep 12 09:18:56 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: vlan565_2 registered
+Sep 12 09:18:56 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: bpf0
+Sep 12 09:18:56 fsvqg002 genunix: [ID 936769 kern.notice] bpf0 is /pseudo/bpf@0
+Sep 12 09:18:56 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: nsmb0
+Sep 12 09:18:56 fsvqg002 genunix: [ID 936769 kern.notice] nsmb0 is /pseudo/nsmb@0
+Sep 12 09:18:57 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet1 registered
+Sep 12 09:18:57 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet1
+Sep 12 09:18:57 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet1 is /pseudo/clprivnet@1
+Sep 12 09:18:57 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet2 registered
+Sep 12 09:18:57 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet2
+Sep 12 09:18:57 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet2 is /pseudo/clprivnet@2
+Sep 12 09:18:57 fsvqg002 mac: [ID 469746 kern.notice] NOTICE: clprivnet3 registered
+Sep 12 09:18:57 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: clprivnet3
+Sep 12 09:18:57 fsvqg002 genunix: [ID 936769 kern.notice] clprivnet3 is /pseudo/clprivnet@3
+Sep 12 09:19:10 fsvqg002 Cluster.ZC.fsvqz.zc_boot: [ID 254784 daemon.notice] Using the tunable values zc_scha_retry_wait=10, zc_scha_max_retries=30, zc_mds_check_timeout=600, zc_wait_zc_rg_wait_timeout=720, zc_qfs_rg_wait_timeout=720.
+Sep 12 09:19:10 fsvqg002 Cluster.ZC.fsvqz.zc_boot: [ID 418978 daemon.notice] Skipping the execution of the boot handler as the zone is coming up as part of physical node boot and the shared qfs file systems will be mounted by RGM.
+Sep 12 09:19:10 fsvqg002 Cluster.ZC.fsvqz.zc_boot: [ID 417919 daemon.notice] zc_acfs: Using the tunable values zc_scha_retry_wait=10, zc_scha_max_retries=30, zc_wait_zc_rg_wait_timeout=720.
+Sep 12 09:19:10 fsvqg002 Cluster.ZC.fsvqz.zc_boot: [ID 316916 daemon.notice] zc_acfs_boot: Skipping the execution of the boot handler as the zone is coming up as part of physical node boot and the ACFS file systems will be mounted by RGM.
+Sep 12 09:19:11 fsvqg002 Cluster.ZC.fsvqd.zc_boot: [ID 254784 daemon.notice] Using the tunable values zc_scha_retry_wait=10, zc_scha_max_retries=30, zc_mds_check_timeout=600, zc_wait_zc_rg_wait_timeout=720, zc_qfs_rg_wait_timeout=720.
+Sep 12 09:19:11 fsvqg002 Cluster.ZC.fsvqd.zc_boot: [ID 418978 daemon.notice] Skipping the execution of the boot handler as the zone is coming up as part of physical node boot and the shared qfs file systems will be mounted by RGM.
+Sep 12 09:19:11 fsvqg002 Cluster.ZC.fsvqd.zc_boot: [ID 417919 daemon.notice] zc_acfs: Using the tunable values zc_scha_retry_wait=10, zc_scha_max_retries=30, zc_wait_zc_rg_wait_timeout=720.
+Sep 12 09:19:11 fsvqg002 Cluster.ZC.fsvqd.zc_boot: [ID 316916 daemon.notice] zc_acfs_boot: Skipping the execution of the boot handler as the zone is coming up as part of physical node boot and the ACFS file systems will be mounted by RGM.
+Sep 12 09:22:34 fsvqg002 cl_runtime: [ID 564910 kern.notice] NOTICE: Membership: Node 'fsvqz002' (node id 2) of cluster 'fsvqz' joined.
+Sep 12 09:22:46 fsvqg002 cl_runtime: [ID 564910 kern.notice] NOTICE: Membership: Node 'fsvqd002' (node id 2) of cluster 'fsvqd' joined.
+Sep 12 10:21:25 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet8 link up, 1000 Mbps, full duplex
+Sep 12 10:21:25 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vlan565_1 link up, 1000 Mbps, full duplex
+Sep 12 10:21:35 fsvqg002 fmd: [ID 377184 daemon.notice] SUNW-MSG-ID: NET-8000-2N, TYPE: alert, VER: 1, SEVERITY: Minor#012EVENT-TIME: Sun Sep 12 10:21:35 CEST 2021#012PLATFORM: SPARC-T4-1, CSN: unknown, HOSTNAME: fsvqg002#012SOURCE: software-diagnosis, REV: 0.2#012EVENT-ID: 45d67503-62e7-4145-9c12-8499741ca5a2#012DESC: Network connectivity via datalink net8 has been established (1000 Mbps, full-duplex)#012AUTO-RESPONSE: No automated response.#012IMPACT: Network communication via datalink net8 is now possible.#012REC-ACTION: None. Please refer to the associated reference document at http://support.oracle.com/msg/NET-8000-2N for the latest service procedures and policies regarding this diagnosis.#012FRU-LOCATION:
+Sep 12 10:21:35 fsvqg002 sendmail[14691]: [ID 702911 mail.crit] My unqualified host name (fsvqg002) unknown; sleeping for retry
+Sep 12 10:22:35 fsvqg002 sendmail[14691]: [ID 702911 mail.alert] unable to qualify my own domain name (fsvqg002) -- using short name
+Sep 12 10:41:40 fsvqg002 mac: [ID 486395 kern.notice] NOTICE: vnet8 link down
+Sep 12 10:41:40 fsvqg002 mac: [ID 486395 kern.notice] NOTICE: vlan565_1 link down
+Sep 12 10:41:43 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vnet8 link up, 1000 Mbps, full duplex
+Sep 12 10:41:43 fsvqg002 mac: [ID 435574 kern.notice] NOTICE: vlan565_1 link up, 1000 Mbps, full duplex
+Sep 12 10:49:25 fsvqg002 cl_runtime: [ID 387288 kern.notice] NOTICE: clcomm: Path fsvqg002:ci1 - fsvqg001:ci1 online
+Sep 12 10:49:25 fsvqg002 cl_runtime: [ID 891063 kern.notice] NOTICE: Received non-interrupt heartbeat on fsvqg002:ci1 - fsvqg001:ci1.
+Sep 12 14:35:47 fsvqg002 cl_runtime: [ID 489438 kern.notice] NOTICE: clcomm: Path fsvqg002:ci1 - fsvqg001:ci1 being drained
+Sep 12 14:36:47 fsvqg002 cl_runtime: [ID 604153 kern.notice] NOTICE: clcomm: Path fsvqg002:ci1 - fsvqg001:ci1 errors during initiation
+Sep 12 14:36:47 fsvqg002 cl_runtime: [ID 618107 kern.warning] WARNING: Path fsvqg002:ci1 - fsvqg001:ci1 initiation encountered errors, errno = 62. Remote node may be down or unreachable through this path.
+Sep 12 14:42:20 fsvqg002 cl_runtime: [ID 387288 kern.notice] NOTICE: clcomm: Path fsvqg002:ci1 - fsvqg001:ci1 online
+Sep 12 15:05:16 fsvqg002 cl_runtime: [ID 489438 kern.notice] NOTICE: clcomm: Path fsvqg002:ci0 - fsvqg001:ci0 being drained
+Sep 12 15:06:16 fsvqg002 cl_runtime: [ID 604153 kern.notice] NOTICE: clcomm: Path fsvqg002:ci0 - fsvqg001:ci0 errors during initiation
+Sep 12 15:06:16 fsvqg002 cl_runtime: [ID 618107 kern.warning] WARNING: Path fsvqg002:ci0 - fsvqg001:ci0 initiation encountered errors, errno = 62. Remote node may be down or unreachable through this path.
+Sep 12 15:11:49 fsvqg002 cl_runtime: [ID 387288 kern.notice] NOTICE: clcomm: Path fsvqg002:ci0 - fsvqg001:ci0 online
+Sep 12 17:02:32 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fcsm0
+Sep 12 17:02:32 fsvqg002 genunix: [ID 936769 kern.notice] fcsm0 is /pseudo/fcsm@0
+Sep 12 17:02:54 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: mdesc0
+Sep 12 17:02:54 fsvqg002 genunix: [ID 936769 kern.notice] mdesc0 is /pseudo/mdesc@0
+Sep 12 22:16:00 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: sbmc0
+Sep 12 22:16:00 fsvqg002 genunix: [ID 936769 kern.notice] sbmc0 is /pseudo/sbmc@0
+Sep 12 22:16:07 fsvqg002 explorer: [ID 702911 daemon.notice] Explorer started
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: dcpc0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] dcpc0 is /pseudo/dcpc@0
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fbt0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] fbt0 is /pseudo/fbt@0
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: lockstat0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] lockstat0 is /pseudo/lockstat@0
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: profile0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] profile0 is /pseudo/profile@0
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: sdt0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] sdt0 is /pseudo/sdt@0
+Sep 12 22:22:06 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: systrace0
+Sep 12 22:22:06 fsvqg002 genunix: [ID 936769 kern.notice] systrace0 is /pseudo/systrace@0
+Sep 12 22:23:54 fsvqg002 genunix: [ID 780570 kern.notice] modload of socketmod/sockrds failed
+Sep 12 22:23:54 fsvqg002 genunix: [ID 780570 kern.notice] modload of socketmod/sockrds failed
+Sep 12 22:23:54 fsvqg002 genunix: [ID 780570 kern.notice] modload of socketmod/sockrds failed
+Sep 12 22:23:54 fsvqg002 genunix: [ID 780570 kern.notice] modload of socketmod/sockrds failed
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fcp0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] fcp0 is /pseudo/fcp@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: llc10
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] llc10 is /pseudo/llc1@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ntwdt0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] ntwdt0 is /pseudo/ntwdt@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ramdisk1024
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] ramdisk1024 is /pseudo/ramdisk@1024
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: srn0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] srn0 is /pseudo/srn@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: trapstat0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] trapstat0 is /pseudo/trapstat@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: ttrace0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] ttrace0 is /pseudo/ttrace@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: fssnap0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] fssnap0 is /pseudo/fssnap@0
+Sep 12 22:24:27 fsvqg002 pseudo: [ID 129642 kern.notice] pseudo-device: pm0
+Sep 12 22:24:27 fsvqg002 genunix: [ID 936769 kern.notice] pm0 is /pseudo/pm@0

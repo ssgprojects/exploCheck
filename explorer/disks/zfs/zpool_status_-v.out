@@ -1,0 +1,11 @@
+  pool: rpool
+ state: ONLINE
+  scan: scrub repaired 0 in 1h33m with 0 errors on Fri Aug 27 00:35:38 2021
+
+config:
+
+	NAME      STATE      READ WRITE CKSUM
+	rpool     ONLINE        0     0     0
+	  c1d1s0  ONLINE        0     0     0
+
+errors: No known data errors

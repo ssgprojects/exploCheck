@@ -1,0 +1,5 @@
+Domain role: LDoms guest
+Domain name: guest_ldom_name
+Domain UUID: 00000000-0000-0000-00000-0000000000
+Control domain: test_master
+Chassis serial#: 1234567

@@ -1,0 +1,37 @@
+# ExplorerCheck
+# V 0.1
+# This application will show the output of usual files verified by an engineer and will
+# create an output file that can be copy/pasted in a service request
+# This application is not doing any analyze, is just showing the usual check of an explorer.
+# The list of files can be added/modified on the modules.conf
+
+# load the list of files
+import os
+import sys
+with open(os.path.join(sys.path[0], "modules.conf"), 'r') as f:
+    modules = []
+    max=0
+    for line in f:
+        strip_lines = line.strip()
+        listli = strip_lines.split()
+        m = modules.append(listli)
+        max += 1
+
+# ask for explorer name. Note that you will have to be on /SR-xxxx/Explorer
+explorer = input(' Enter the explorer name: ')
+
+# read the files and start writing the output on output.out
+i=0
+print('Creating output of: ')
+max = max - 1
+while i <= max:
+    fileName = explorer + str(modules[i]).strip("[]'")
+    print(fileName)
+    fileTmp = open(fileName)
+    fileContent=fileTmp.read()
+    with open ('output.out','a') as output:
+        output.write("############################################################\n")
+        output.write(fileName)
+        output.write('\n')
+        output.write(fileContent)
+    i += 1

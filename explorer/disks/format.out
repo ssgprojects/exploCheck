@@ -1,0 +1,12 @@
+Searching for disks...done
+
+
+AVAILABLE DISK SELECTIONS:
+       0. c1d0 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@0
+       1. c1d1 <SUN-DiskImage-64GB cyl 1825 alt 2 hd 96 sec 768>
+          /virtual-devices@100/channel-devices@200/disk@1
+       2. c1d2 <IBM-2145-0000 cyl 8190 alt 2 hd 64 sec 256>
+          /virtual-devices@100/channel-devices@200/disk@2
+       3. c1d3 <IBM-2145-0000-101.00GB>
+          /virtual-devices@100/channel-devices@200/disk@3

@@ -1,0 +1,293 @@
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Sep 12 09:15:31 3e2eaca9-07f1-4b94-840c-dbaaa7d6f430  SUNOS-8000-KL  Major    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : defect.sunos.kernel.panic
+   Certainty   : 100%
+   Affects     : sw:///:path=/var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430
+   Status      : faulted but still in service
+
+   Resource
+     FMRI             : "sw:///:path=/var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430"
+     Status           : faulty
+
+Description : The system has rebooted after a kernel panic. The following are
+              potential bugs.
+              stack[0] - 16660233 
+              stackdb diagnostic database is out of date,
+              please update it by running
+              	# pkg update diagnostic/stackdb
+
+Response    : The failed system image was dumped to the dump device.  If
+              savecore is enabled (see dumpadm(8)) a copy of the dump will be
+              written to the savecore directory
+              /var/crash/data/3e2eaca9-07f1-4b94-840c-dbaaa7d6f430.
+
+Impact      : There may be some performance impact while the crash dump is
+              copied to the savecore directory.  Disk space usage by crash
+              dumps can be substantial.
+
+Action      : If savecore is not enabled then please take steps to preserve the
+              crash image. Use 'fmdump -Vp -u
+              3e2eaca9-07f1-4b94-840c-dbaaa7d6f430' to view more panic detail.
+              Please refer to the associated reference document at
+              http://support.oracle.com/msg/SUNOS-8000-KL for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Aug 17 16:43:12 a5249389-b9e8-4b6d-a3d4-de199e2314b3  SUNOS-8000-KL  Major    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : defect.sunos.kernel.panic
+   Certainty   : 100%
+   Affects     : sw:///:path=/var/crash/data/a5249389-b9e8-4b6d-a3d4-de199e2314b3
+   Status      : faulted but still in service
+
+   Resource
+     FMRI             : "sw:///:path=/var/crash/data/a5249389-b9e8-4b6d-a3d4-de199e2314b3"
+     Status           : faulty
+
+Description : The system has rebooted after a kernel panic. The following are
+              potential bugs.
+              stack[0] - 23317378 
+              stackdb diagnostic database is out of date,
+              please update it by running
+              	# pkg update diagnostic/stackdb
+
+Response    : The failed system image was dumped to the dump device.  If
+              savecore is enabled (see dumpadm(8)) a copy of the dump will be
+              written to the savecore directory
+              /var/crash/data/a5249389-b9e8-4b6d-a3d4-de199e2314b3.
+
+Impact      : There may be some performance impact while the crash dump is
+              copied to the savecore directory.  Disk space usage by crash
+              dumps can be substantial.
+
+Action      : If savecore is not enabled then please take steps to preserve the
+              crash image. Use 'fmdump -Vp -u
+              a5249389-b9e8-4b6d-a3d4-de199e2314b3' to view more panic detail.
+              Please refer to the associated reference document at
+              http://support.oracle.com/msg/SUNOS-8000-KL for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Aug 17 16:33:24 06d3e357-a551-406f-8187-ecd2aa5666e6  NET-8000-39    Minor    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : alert.oracle.solaris.net.datalink.link_down
+   Certainty   : 100%
+
+   Resource
+     FMRI             : "obj:///:id=datalink/net9"
+     Status           : Active
+
+Description : Network connectivity via datalink net9 has been lost.
+
+Response    : No automated response.
+
+Impact      : Network communication via datalink net9 is no longer possible.
+
+Action      : Check the networking cable, switch port, and switch
+              configuration. Please refer to the associated reference document
+              at http://support.oracle.com/msg/NET-8000-39 for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Aug 17 16:33:23 789b1fa9-fc09-41bb-80eb-ad27cab54322  NET-8000-39    Minor    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : alert.oracle.solaris.net.datalink.link_down
+   Certainty   : 100%
+
+   Resource
+     FMRI             : "obj:///:id=datalink/net13"
+     Status           : Active
+
+Description : Network connectivity via datalink net13 has been lost.
+
+Response    : No automated response.
+
+Impact      : Network communication via datalink net13 is no longer possible.
+
+Action      : Check the networking cable, switch port, and switch
+              configuration. Please refer to the associated reference document
+              at http://support.oracle.com/msg/NET-8000-39 for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Aug 17 16:33:22 ebd1cd26-d0aa-4308-9cf4-9e311bda24d2  NET-8000-39    Minor    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : alert.oracle.solaris.net.datalink.link_down
+   Certainty   : 100%
+
+   Resource
+     FMRI             : "obj:///:id=datalink/net12"
+     Status           : Active
+
+Description : Network connectivity via datalink net12 has been lost.
+
+Response    : No automated response.
+
+Impact      : Network communication via datalink net12 is no longer possible.
+
+Action      : Check the networking cable, switch port, and switch
+              configuration. Please refer to the associated reference document
+              at http://support.oracle.com/msg/NET-8000-39 for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------
+TIME            EVENT-ID                              MSG-ID         SEVERITY
+--------------- ------------------------------------  -------------- ---------
+Aug 17 16:33:00 c6303565-4568-46bf-b560-88b9cd9c1f1b  NET-8000-39    Minor    
+
+Problem Status            : open
+Diag Engine               : software-diagnosis / 0.2
+System
+    Manufacturer          : unknown
+    Name                  : SPARC-T4-1
+    Part_Number           : unknown
+    Serial_Number         : unknown
+
+System Component
+    Firmware_Manufacturer : unknown
+    Firmware_Version      : unknown
+    Firmware_Release      : unknown
+    Host_ID               : host
+    Server_Name           : server_name
+    Virtualization_Type   : logical-domain
+    Virtualization_Roles  : none
+    Parent_Type           : logical-domain
+    OS_Version            : 11.4.27.82.1
+
+----------------------------------------
+Suspect 1 of 1 :
+   Problem class : alert.oracle.solaris.net.datalink.link_down
+   Certainty   : 100%
+
+   Resource
+     FMRI             : "obj:///:id=datalink/net14"
+     Status           : Active
+
+Description : Network connectivity via datalink net14 has been lost.
+
+Response    : No automated response.
+
+Impact      : Network communication via datalink net14 is no longer possible.
+
+Action      : Check the networking cable, switch port, and switch
+              configuration. Please refer to the associated reference document
+              at http://support.oracle.com/msg/NET-8000-39 for the latest
+              service procedures and policies regarding this diagnosis.
+
+--------------- ------------------------------------  -------------- ---------

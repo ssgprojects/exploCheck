@@ -1,0 +1,2 @@
+swapfile                 dev            swaplo      blocks        free encrypted
+/dev/zvol/dsk/rpool/swap 301,1               0    12582912    12582912      yes

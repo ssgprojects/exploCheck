@@ -1,0 +1,6 @@
+BE Name          Flags Mountpoint Space   Policy Created          
+---------------- ----- ---------- ------- ------ ---------------- 
+s2x2018          -     -          19.18G  static 2018-08-30 14:32 
+s2x2020          NR    /          18.23G  static 2020-12-07 15:50 
+s2x2020-backup-1 -     -          488.49M static 2020-12-07 19:27 
+s2x2020-backup-2 -     -          820.52M static 2021-03-03 14:35 

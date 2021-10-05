@@ -1,0 +1,4 @@
+  ID NAME             STATUS      PATH                         BRAND      IP    
+   0 global           running     /                            solaris    shared
+   1 fsvqz            running     /zonen/fsvqz                 solaris    excl  
+   2 fsvqd            running     /zonen/fsvqd                 solaris    excl  
