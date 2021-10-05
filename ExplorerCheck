@@ -35,3 +35,4 @@ while i <= max:
         output.write('\n')
         output.write(fileContent)
     i += 1
+print ('cat output.out')
